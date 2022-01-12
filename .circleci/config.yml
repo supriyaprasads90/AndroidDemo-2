@@ -13,7 +13,7 @@ jobs:
           name: Download Dependencies
           command:  |
              chmod +x gradlew
-            ./gradlew androidDependencies
+             ./gradlew androidDependencies
       - save_cache:
           paths:
             - ~/.gradle
